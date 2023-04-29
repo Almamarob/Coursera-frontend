@@ -1,0 +1,92 @@
+/*BASE STYLE*/
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    width:100%;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    font-size: 100%;
+    background-color: #4fd1125b;
+}
+
+h1{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(189, 64, 15);
+    margin: 10px;
+    padding: 0px;
+}
+h3{
+    text-align: center;
+    font-size: 100%;
+    color: rgb(189, 64, 15);
+    margin: -10px;
+    padding: 0px;
+}
+.plate{
+   background-color:#cfc144a1;
+   border : solid black 2px;
+   margin: 20px;
+   padding: 0px;
+   overflow: hidden;
+}
+
+.plate_name{
+    float: right;
+    text-align: center;
+    color: #000000;
+    border-bottom:solid black 2px;
+    border-left: solid black 2px;
+    font-weight:900;
+    width: 100px;
+    margin: 0px;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.description{
+    text-align: justify;
+    color: #000000;
+    margin: 3px;
+    padding: 5px;
+    border: 0px;
+    clear:both;
+    overflow: hidden;
+ }
+
+
+#chicken{
+    background-color:#e6a00a96;
+}
+
+#sushi{
+    background-color:#2cbb7875;
+}
+
+#beef{
+    background-color:#da3aa575;
+}
+
+
+
+/*LARGE DEVICES ONLY*/
+@media(min-width:992px){ 
+    .col-lg-4
+        {float: left;}
+    .col-lg-4{ width:33%; }
+    }
+/*MEDIUM DEVICES ONLY*/
+@media(min-width:768px) and (max-width:991px){
+    .col-md-6, .col-md-12 { float: left;}
+    .col-md-6{ width: 50%;}
+    .col-md-12{ width: 100%;}
+}
+
+
+
